@@ -10,7 +10,7 @@
     background-position: center;
     background-size: cover;
     text-align: center;
-    color: #323ea8;
+    color: #fff;
 }
 .sub-header p{
     margin-top: 90px;
@@ -38,7 +38,7 @@ nav img{
     position: relative;
 }
 .nav-links ul li a{
-    color: #323ea8;
+    color: #fff;
     text-decoration: none;
     font-size: 13px;
 }
