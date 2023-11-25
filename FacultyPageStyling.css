@@ -90,6 +90,78 @@ nav .fa{
     
 }
 
+/*--Faculty Content --*/
+
+.SEC-P {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.faculty-member {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.faculty-member img {
+    width: 150px; 
+    height: 170px; 
+    border-radius: 12px; 
+    margin-right: 15px;
+}
+
+.faculty-member div {
+    text-align: left; 
+}
+
+.faculty-member h2 {
+    color: #333;
+}
+
+.faculty-member p {
+    color: #666;
+}
+.open-message{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.SP{
+    font-weight: 700;
+    color: rgb(44, 63, 137);
+    font-size: larger;
+}
+
+@media only screen and (max-width: 600px) {
+    .faculty-member {
+        flex-direction: column;
+    }
+
+    .faculty-member img {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .faculty-member div {
+        text-align: center; 
+    }
+}
+
+.staff-list {
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio while scaling */
+  }
+
 /*----------Footer---------------*/
 
 .footer{
