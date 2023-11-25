@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    align-items: center;
 }
 .sub-header{
     min-height: 50vh;
     width: 100%;
-    background-image: url(AboutPagePics/group-table.png);
+    background-image: url(GetToKnowUsPics/AZ\ P.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -76,7 +77,6 @@ nav .fa{
     color: #fff;
 }
 
-
 @media(max-width: 700px)
 {
    .nav-links ul li
@@ -109,61 +109,56 @@ nav .fa{
         font-size: 20px;
     }
 }
+/*-- Get To Know Us Content --*/
 
-/*--About us content--*/
-
-.about-us {
-    margin: 20px;
-}
-
-.row {
+body {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
-.about-col {
-    flex: 1;
-    padding: 10px;
-    box-sizing: border-box;
+.section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #001F3F; 
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.GTKU-s p {
+    color: #000; 
+    font-size: 16px;
+    line-height: 1.5;
     margin-bottom: 20px;
 }
 
-.about-col img {
-    width: 100%;
+img {
     max-width: 100%;
     height: auto;
 }
 
-.about-col:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 0;
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.about-col h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #0d4f70;
+.flex-item {
+    flex: 0 0 48%; 
+    margin-bottom: 20px;
 }
 
-.about-col p {
-    font-size: 16px;
-    line-height: 1.6;
+.cover-image {
+    width: 100%;
+    max-height: 400px; 
+    object-fit: fill;
+    margin-bottom: 20px;
 }
-
-
-@media only screen and (min-width: 768px) {
-    .about-col {
-        flex: 0 0 50%;
-        margin-right: 20px;
-        margin-bottom: 0;
-    }
-
-    
-    .about-col:last-child {
-        margin-right: 0;
-    }
-}
-
 
 /*--------------Footer---------------*/
 

@@ -1,0 +1,121 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get To Know Us Page DCS</title>
+<link rel="stylesheet" href="GTKUPageStyling.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="GetToKnowUsPics/comScience_logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="HomePage.html">HOME</a></li> 
+                    <li><a href="AboutPage.html">ABOUT</a></li> 
+                    <li><a href="">FACULTY</a></li> <!---------- Place link here ----------->
+                    <li><a href="">COMPSSA</a></li> <!---------- Place link here ----------->
+                    <li><a href="ContactPage.html">CONTACT US</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <p> Get To Know Us </p>
+    </section>
+
+    <!-------- Get To Know Us ---------->
+
+    <section class="GTKU-s">
+    <div class="section">
+        <p>
+            Your gateway to world-class computer science education.
+            Welcome to the vibrant and innovative world of the Computer Science Department at the University of Ghana!
+            Our department is a dynamic hub where curiosity meets computation, and innovation thrives.
+            As technology continues to shape the future, our dedicated faculty, brilliant students, 
+            and cutting-edge research are at the forefront of driving progress.
+        </p>
+    </div>
+
+    <div class="section">
+        <h1>Our Organization</h1>
+        <p>
+           The University of Ghana is one of Africa's most preeminent public universities. Our impact on individuals, our region, 
+           and the world are profound. Whether we are launching young people into a boundless future or confronting the grand challenges
+           of our time through dauntless research. UG educates more than 38,000 students annually, with approximately 2.64% being computer 
+           science students. We turn ideas into impact and transform the world around us. For more about our impact, visit our news site, UG News.
+        </p>
+    </div>
+
+    <div class="section">
+        <h1>Our Community</h1>
+        <p>
+           If you are inspired by a big challenge, you have come to the right place! The computer science community at the University of
+           Ghana encourages its people to be vibrant and brave in taking on new challenges that push boundaries beyond imagination.
+        </p>
+    </div>
+   
+    <div>
+    <img class="cover-image" src="GetToKnowUsPics/PHOTO-2019-03-04-14-42-37.jpg" alt="Cover Image">
+    </div>
+
+    <div class="section flex-container">
+        <div class="flex-item">
+            <img src="GetToKnowUsPics/PHOTO-2019-03-04-14-45-13 2.jpg" alt="Distance Learning">
+        </div>
+        <div class="flex-item">
+            <h1>Distance Learning</h1>
+            <p>
+               Experience a UG-DCS classroom from wherever you are. Take advantage of real-time lectures and 
+               personal interaction with professors through a suite of online delivery options, customizing your degree
+               to fit your schedule. Our online classroom maintains the same level of academic rigor while providing students with more ways of learning.</p>
+        </div>
+    </div>
+
+    <div class="section flex-container">
+        <div class="flex-item">
+            <h1>Building Our Future</h1>
+            <p>
+            So, what defines our students, faculty, and community members? Above all, it's our belief in the infinite possibilities and our unshakable optimism.
+            It's a connection to others near and far. A hunger for socio-economic transformation that pushes us to tackle challenges and pursue progress.
+            It's the conviction that together we can create a world of good. Join us on the journey.
+            </p>
+        </div>
+        <div class="flex-item">
+            <img src="GetToKnowUsPics/FF7tz1EXoAEOz0I.jpeg" alt="Building Our Future">
+        </div>
+    </div>
+    </section>
+
+    <!-------- footer ---------->
+
+   <section class="footer">
+    <h4>About Us</h4>
+    <p><br> You can also reach out to us on social media.</p>
+    <div class="icons">
+        <a href="https://www.facebook.com/University-of-GhanaDepartment-of-Computer-Science-116786389698948"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Funivofghana"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/company/university-of-ghana/"><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <p>Created by Erskine. Copyright ©2023 All rights reserved</p>
+   </section>     
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   
