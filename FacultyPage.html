@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COMPSSA Page DCS</title>
+<link rel="stylesheet" href="FacultyPageStyling.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="FacultyPics/comScience_logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="HomePage.html">HOME</a></li> 
+                    <li><a href="AboutPage.html">ABOUT</a></li> 
+                    <li><a href="">FACULTY</a></li> <!---------- Place link here ----------->
+                    <li><a href="COMPSSAPage.html">COMPSSA</a></li> <!---------- Place link here ----------->
+                    <li><a href="ContactPage.html">CONTACT US</a></li> 
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <p>FACULTY</p>
+    </section>
+
+
+
+
+
+
+    <!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p><br> You can also reach out to us on social media.</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/University-of-GhanaDepartment-of-Computer-Science-116786389698948"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Funivofghana"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/explore/locations/468119891/university-of-ghana/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/university-of-ghana/"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        <p>Created by Erskine. Copyright ©2023 All rights reserved</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>   
