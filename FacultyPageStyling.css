@@ -157,9 +157,9 @@ nav .fa{
 
 .staff-list {
     display: block;
-    margin: 0 auto; /* Center the image horizontally */
-    max-width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio while scaling */
+    margin: 0 auto; 
+    max-width: 100%; 
+    height: auto; 
   }
 
 /*----------Footer---------------*/
