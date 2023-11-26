@@ -11,6 +11,7 @@
     background-size: cover;
     text-align: center;
     color: #fff;
+    margin-bottom: 20px;
 }
 .sub-header p{
     margin-top: 90px;
@@ -88,8 +89,83 @@ nav .fa{
     }
     
 }
+/*-- Short Programmes Content --*/
+
+.about-us {
+    margin: 20px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.about-col img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%; 
+}
+.about-col:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+.About-text {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+}
+.About-text {
+      padding: 10px;
+      max-width: 100%; 
+}
+
+@media only screen and (min-width: 768px) {
+      .About-text {
+        font-size: 18px; 
+      }
+}
+
+@media only screen and (min-width: 768px) {
+      .about-col {
+        flex: 0 0 50%;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    
+    .about-col:last-child {
+        margin-right: 0;
+    }
+}
 
 
+.Intro-image {
+      max-width: 100%; 
+      height: auto; 
+      display: block; 
+      margin: 0 auto; 
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: #d79e35;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    border-radius: 6px;
+}
 
 /*--------------Footer---------------*/
 
