@@ -89,6 +89,81 @@ nav .fa{
     }
     
 }
+/*--Graduate Content--*/
+.sec-1 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+}
+.cover-image {
+    width: 100%;
+    height: 700px; 
+    object-fit: fill;
+    margin-bottom: 20px;    
+}
+
+.program-courses {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.program-courses h3 {
+   font-weight: 900;
+   font-size: 30px;
+}
+
+.program-levels h4 {
+    background-color: gray;
+    color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.level-text{
+    font-size: 15px;
+}
+
+.box {
+    width: 200px;  
+    height: 40px;         
+    border-radius: 3px;
+    background-color: rgb(237, 151, 46);
+    color: #fff;
+    text-align: center;
+    line-height: 40px; 
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+
+.hidden-table {
+    display: none;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none; 
+}
+
+th, td {
+    border: none; 
+    padding: 10px;
+    text-align: left;
+}
 
 
 /*--------------Footer---------------*/
