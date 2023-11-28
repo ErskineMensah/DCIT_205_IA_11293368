@@ -89,6 +89,119 @@ nav .fa{
     }
     
 }
+/*------Undergrad-----*/
+
+.about-us {
+    margin: 30px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-col {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.about-col img {
+    width: 500px;
+    height: auto;
+}
+
+.about-col:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.about-col h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0d4f70;
+}
+
+.about-col p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .about-col {
+        flex: 0 0 50%;
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    
+    .about-col:last-child {
+        margin-right: 0;
+    }
+}
+
+.program-courses {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.program-courses h3 {
+   font-weight: 900;
+   font-size: 30px;
+}
+
+.program-levels h4 {
+    background-color: gray;
+    color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.level-text{
+    font-size: 15px;
+}
+
+.box {
+    width: 200px;  
+    height: 40px;         
+    border-radius: 3px;
+    background-color: cadetblue;
+    color: #fff;
+    text-align: center;
+    line-height: 40px; 
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+
+.hidden-table {
+    display: none;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: none; 
+}
+
+th, td {
+    border: none; 
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3c34db;
+    color: #fff;
+}
 
 
 /*--------------Footer---------------*/
